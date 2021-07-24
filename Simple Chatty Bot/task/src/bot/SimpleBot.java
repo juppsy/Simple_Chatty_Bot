@@ -6,7 +6,7 @@ public class SimpleBot {
     final static Scanner scanner = new Scanner(System.in); // Do not change this line
 
     public static void main(String[] args) {
-        greet("Aid", "2018"); // change it as you need
+        greet("Sebastian", "2021"); // change it as you need
         remindName();
         guessAge();
         count();
@@ -52,7 +52,7 @@ public class SimpleBot {
         System.out.println("4. To interrupt the execution of a program.");
         for (;;) {
             int testAnswer = scanner.nextInt();
-            if (testAnswer == 4) {
+            if (testAnswer == 2) {
                 break;
             } else {
                 System.out.println("Please, try again.");
